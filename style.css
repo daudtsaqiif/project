@@ -1,3 +1,20 @@
-.navbaer:hover{
-    color: white;
+.body{
+    font-family: "Nunito", sans-serif;
 }
+.banner{
+    height: 100vh;
+        background-image: url(https://mazda.co.id/media/zgulygx5/new-mazda2-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-content {
+        align-items: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .pt-2{
+        letter-spacing: 10px;
+    }
