@@ -29,7 +29,7 @@
         color: white;
     }
     .builds{
-        height: 60vh;
+        height: 85vh;
         background-image: url(https://www.carscoops.com/wp-content/uploads/2018/07/555c5ee0-mazda-rx9-rendering-4.jpg);
         background-repeat: no-repeat;
         background-size: cover ;
@@ -42,6 +42,4 @@
         margin-top: 12vh;
         margin-bottom: 10vh;
     }
-    .cads{
-        margin-left: 10vh;
-    }
+    
