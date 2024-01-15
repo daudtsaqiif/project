@@ -18,3 +18,16 @@
     .pt-2{
         letter-spacing: 10px;
     }
+    h3{
+        letter-spacing: 5px;
+    }
+    .img-box{
+        width: 460px;
+        height: 450px;
+        overflow: hidden;
+    }
+    .img-box img{
+        height: 100%;
+        width: 100%;
+        transition: 0.5s ease-in-out;
+    }
