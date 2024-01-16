@@ -72,7 +72,9 @@ h2 {
 .image-box:hover img {
     transform: scale(1.2);
 }
-
+.contact{
+    margin-top: 100px;
+}
 .contact-form {
     max-width: 150vh;
     margin: 0 auto;
