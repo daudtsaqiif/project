@@ -1,47 +1,74 @@
-*{
+* {
     scroll-behavior: smooth;
 }
-.body{
+
+.body {
     font-family: "Nunito", sans-serif;
 }
-.btnnn{
+
+.btnnn {
     margin-top: 70vh;
 }
-.maz{
+
+.maz {
     height: 100vh;
-        background-image: url(https://mazda.co.id/media/zgulygx5/new-mazda2-banner.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    .banner-content{
-        align-items: center;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-top: 10vh;
-    }
-    .pt-2{
-        letter-spacing: 10px;
-    }
-    h3{
-        letter-spacing: 5px;
-    }
-    a{
-        color: white;
-    }
-    .builds{
-        height: 85vh;
-        background-image: url(https://www.carscoops.com/wp-content/uploads/2018/07/555c5ee0-mazda-rx9-rendering-4.jpg);
-        background-repeat: no-repeat;
-        background-size: cover ;
-        background-position: center;
-    }
-    h2{
-        letter-spacing: 10px;
-    }
-    .sub-judul{
-        margin-top: 12vh;
-        margin-bottom: 10vh;
-    }
+    background-image: url(https://mazda.co.id/media/zgulygx5/new-mazda2-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.pt-2 {
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+}
+
+a {
+    color: white;
+}
+
+.builds {
+    height: 85vh;
+    background-image: url(https://www.carscoops.com/wp-content/uploads/2018/07/555c5ee0-mazda-rx9-rendering-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    letter-spacing: 10px;
+}
+
+.sub-judul {
+    margin-top: 12vh;
+    margin-bottom: 10vh;
+}
+
+.image-box {
+    width: 400x;
+    height: 350px;
+    border-radius: 0px 0px 0 0;
+    overflow: hidden;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    transition: 1.5s ease-in-out;
+}
+
+.image-box:hover img {
+    transform: scale(1.2);
+}
