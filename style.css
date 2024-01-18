@@ -110,6 +110,9 @@ h2 {
 #cros{
     cursor: pointer;
 }
+.OTR{
+    list-style-type: none;
+}
 
 .close:hover,
 .close:focus {
