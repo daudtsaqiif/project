@@ -107,6 +107,9 @@ h2 {
     font-size: 28px;
     font-weight: bold;
 }
+#cros{
+    cursor: pointer;
+}
 
 .close:hover,
 .close:focus {
